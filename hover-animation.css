@@ -1,0 +1,21 @@
+ .header-button{
+                color: black;
+                font-size: 16px;
+                cursor: pointer;
+                position: relative;
+     }
+
+            .header-button::after {
+                content: '';
+                position: absolute;
+                height: 2px;
+                left: 0;
+                bottom: 0;
+                width: 0;
+                background-color: purple;
+                transition: width 0.4s;
+            }
+            .header-button:hover::after {
+                width: 100%;
+                opacity: 1;
+            }

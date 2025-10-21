@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding-bottom: 350px;
+    position: relative;
+}
+.founder-pic {
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.founder {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: start;
+    gap: 30px;
+    margin: 100px 50px;
+    
+}
+.founder-title {
+    font-size: 32px;
+    font-weight: 600;
+    width: 350px;
+
+}
+.founder-text {
+    margin-top: 10px;
+}
+.paragraph {
+    text-align: center;
+    vertical-align: center;
+    font-size: 18px;
+    margin: 0 30px;
+}
+.main-heading {
+    text-align: center;
+    vertical-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 20px;
+    
+}
+.what-is-PMI {
+    display: block;
+    width: 100vw;
+    margin-top: 40px;
+}
+.founder-description {
+    margin-top: 30px;
+}
+.what-we-offer {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+    .info-section {
+      display: grid;
+      grid-template-columns: 1.6fr 3fr;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .info-image {
+      background: url('pics/arifwdn-PfHCCY-JXXA-unsplash.jpg') center/cover no-repeat;
+      height: 500px;
+      border-radius: 1px;
+      z-index: 4;
+    }
+
+    /* 🎠 CAROUSEL STYLES */
+    .info-slider {
+      position: relative;
+      border-radius: 1px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 18vw;
+      min-width: 280px;
+      height: 320px;
+    }
+
+    .info-track {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      position: relative;
+    }
+
+    .info-slide {
+      min-width: 100%;
+      transition: transform 0.5s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      text-align: left;
+      padding: 10px;
+    }
+
+    .info-slide img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 1px;
+      margin-bottom: 8px;
+    }
+
+    .slider-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      border: none;
+      color: white;
+      font-size: 22px;
+      border-radius: 50%;
+      cursor: pointer;
+      padding: 6px 14px;
+      opacity: 0.3;
+      user-select: none;
+      transition: opacity 0.25s;
+      z-index: 2;
+    }
+
+    .slider-btn:hover {
+      opacity: 1;
+    }
+
+    .slider-btn.prev-btn { left: 10px; }
+    .slider-btn.next-btn { right: 10px; }
+
+    .learn-link {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 1.1rem;
+      color: #2563eb;
+      cursor: pointer;
+    }
+    @media (max-width:800px) {
+      .info-image {
+        display: none;
+      }
+    }

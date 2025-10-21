@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    padding-top: 120px;
+    position: relative;
+    padding-bottom: 350px;
+}
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main-heading, .main-heading-why {
+    text-align: center;
+    vertical-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 50px;
+    
+}
+.main-heading {
+    margin-top: 50px;
+}
+.main-heading-why {
+    margin-top: 100px;
+}
+
+.paragraph {
+    text-align: center;
+    vertical-align: center;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.blocks {
+    display: grid;
+    margin-left: 200px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+@media (max-width:800px){
+    .blocks {
+        
+        grid-template-columns: 1fr;
+        align-items: center;
+        column-gap: 0;
+    }
+}
+.why-blocks {
+    
+    text-align: center;
+    width: 400px;
+}
+
+img {
+    object-fit: cover;
+    object-position: center;
+    vertical-align: center;
+}
+
+.sub-heading {
+    font-size: 28px;
+}
+
+.blocks-text {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.wellness {
+    display: grid;
+    margin-top: 100px;
+    
+    grid-template-columns: 1.5fr 1fr;
+    column-gap: 40px;
+}
+@media (max-width:800px) {
+    .wellness {
+        grid-template-columns: 1fr;
+    }
+}
+.wellness-heading {
+    text-align: center;
+    vertical-align: center;
+    font-weight: 500;
+    font-size: 64px;
+    text-align: left;
+}
+.wellness-text{
+    text-align: left;
+    font-size: 20px;
+
+}
+.wellness-image {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+}
+.wellness-quote {
+    color: grey;
+    vertical-align: bottom;
+    margin-top: 50px;
+    
+
+}
+.div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.mission {
+    margin-top: 100px;
+}
+.mission-heading {
+    text-align: center;
+    vertical-align: center;
+    font-weight: 500;
+    font-size: 38px;
+    margin-bottom: 8px;
+    margin-top: 50px;
+    
+}
+.mission-text {
+    text-align: center;
+    vertical-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}

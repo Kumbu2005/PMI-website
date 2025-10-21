@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: whitesmoke; 
+    padding-bottom: 350px; 
+    position: relative;
+}
+.contact-container {
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title h2 {
+    font-weight: 600;
+    color: #a363aa;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-left-title hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #a363aa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.contact-inputs {
+    width: 400px;
+    height: 30px;
+    border: 1px solid grey;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: black;
+    border-radius: 3px;
+}
+.contact-left textarea {
+    height: 120px;
+    padding-top: 15px;
+    border-radius: 3px;
+    width: 100%;
+}
+.contact-inputs:focus {
+    border: 2px solid #ff994f;
+}
+.contact-inputs::placeholder {
+    color: #a9a9a9;
+}
+.submit-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #a363aa;
+    cursor: pointer;
+}
+.contact-right img {
+    width: 500px;
+}
+.message {
+    font-weight: 500;
+    font-family: lora;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.form-names {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+
+.contact-inputs-employs {
+    width: 200px;
+    height: 30px;
+    border: 1px solid grey;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: black;
+    border-radius: 3px;
+}
+.contact-inputs-employs:focus {
+   border: 2px solid #ff994f; 
+}
+.contact-inputs-employs::placeholder {
+    color: #a9a9a9;
+}
+
+@media (max-width: 830px) {
+.form-names {
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+}
+
+.dropdown-inputs {
+  background-color: whitesmoke;
+  color: #a9a9a9;
+  padding: 6px 20px;
+  font-size: 14px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+.dropdown-inputs:focus {
+   border: 2px solid #ff994f; 
+}
+.dropdown-inputs::placeholder {
+    color: #a9a9a9;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 400px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-inputs option {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  overflow:auto;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: rgb(192, 192, 192) ;}

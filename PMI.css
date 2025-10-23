@@ -7,6 +7,8 @@ body{
     padding-top: 120px;
     position: relative;
     padding-bottom: 350px;
+    text-align: center;
+    
 }
 p{
     margin-top: 0;
@@ -17,7 +19,6 @@ p{
 
 .main-heading, .main-heading-why {
     text-align: center;
-    vertical-align: center;
     font-weight: 500;
     font-size: 32px;
     margin-bottom: 50px;
@@ -32,7 +33,6 @@ p{
 
 .paragraph {
     text-align: center;
-    vertical-align: center;
     font-size: 18px;
     margin-top: 0;
 }
@@ -44,6 +44,7 @@ p{
     grid-template-rows: 200px 200px 200px;
     column-gap: 20px;
     row-gap: 40px;
+    align-items: center;
 }
 @media (max-width:800px){
     .blocks {
@@ -136,4 +137,5 @@ img {
     vertical-align: center;
     font-weight: 400;
     font-size: 20px;
+
 }

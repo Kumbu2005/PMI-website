@@ -1,14 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+body {
     background-color: whitesmoke;
     padding-top: 120px;
     position: relative;
     padding-bottom: 350px;
 }
-p{
+p {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 0;
@@ -21,7 +21,6 @@ p{
     font-weight: 500;
     font-size: 32px;
     margin-bottom: 50px;
-    
 }
 .main-heading {
     margin-top: 50px;
@@ -37,6 +36,7 @@ p{
     margin-top: 0;
 }
 
+/* ✨ improved layout for smaller screens */
 .blocks {
     display: grid;
     margin-left: 200px;
@@ -44,17 +44,17 @@ p{
     grid-template-rows: 200px 200px 200px;
     column-gap: 20px;
     row-gap: 40px;
+    justify-items: center; /* ✨ ensures blocks center on all screens */
 }
-@media (max-width:800px){
+@media (max-width: 1000px) { /* ✨ smoother transition breakpoint */
     .blocks {
-        
+        margin-left: 0; /* ✨ remove fixed margin */
         grid-template-columns: 1fr;
         align-items: center;
         column-gap: 0;
     }
 }
 .why-blocks {
-    
     text-align: center;
     width: 400px;
 }
@@ -74,30 +74,37 @@ img {
     text-align: center;
 }
 
-
+/* ✨ wellness section responsive improvements */
 .wellness {
     display: grid;
     margin-top: 100px;
-    
     grid-template-columns: 1.5fr 1fr;
     column-gap: 40px;
+    align-items: center; /* ✨ vertically centers content */
 }
-@media (max-width:800px) {
+@media (max-width: 900px) {
     .wellness {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* ✨ stack on smaller screens */
+        text-align: center;
+        padding: 0 20px; /* ✨ add breathing space */
+    }
+    .wellness-heading {
+        text-align: center;
+        font-size: 42px; /* ✨ smaller heading on mobile */
+    }
+    .wellness-text, .wellness-quote {
+        text-align: center;
+        font-size: 18px;
     }
 }
 .wellness-heading {
-    text-align: center;
-    vertical-align: center;
     font-weight: 500;
     font-size: 64px;
     text-align: left;
 }
-.wellness-text{
+.wellness-text {
     text-align: left;
     font-size: 20px;
-
 }
 .wellness-image {
     width: 100%;
@@ -109,9 +116,8 @@ img {
     color: grey;
     vertical-align: bottom;
     margin-top: 50px;
-    
-
 }
+
 .div {
     display: flex;
     flex-direction: column;
@@ -121,6 +127,7 @@ img {
 
 .mission {
     margin-top: 100px;
+    padding: 0 40px; /* ✨ keeps text readable on narrow screens */
 }
 .mission-heading {
     text-align: center;
@@ -129,11 +136,33 @@ img {
     font-size: 38px;
     margin-bottom: 8px;
     margin-top: 50px;
-    
 }
 .mission-text {
     text-align: center;
     vertical-align: center;
     font-weight: 400;
     font-size: 20px;
+    line-height: 1.4; /* ✨ better readability */
+}
+
+/* ✨ added overall mobile optimization */
+@media (max-width: 600px) {
+    body {
+        padding-top: 80px;
+        padding-bottom: 200px;
+    }
+    .main-heading, .main-heading-why {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .paragraph {
+        font-size: 16px;
+        padding: 0 15px; /* ✨ prevents edge clipping */
+    }
+    .why-blocks {
+        width: 90%; /* ✨ make cards flexible */
+    }
+    .blocks-text {
+        font-size: 16px;
+    }
 }

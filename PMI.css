@@ -39,7 +39,7 @@ p {
 /* ✨ improved layout for smaller screens */
 .blocks {
     display: grid;
-    margin-left: 200px;
+    
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px 200px 200px;
     column-gap: 20px;
@@ -166,3 +166,4 @@ img {
         font-size: 16px;
     }
 }
+

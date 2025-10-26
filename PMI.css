@@ -8,6 +8,11 @@ body {
     position: relative;
     padding-bottom: 350px;
 }
+@media (max-width:800px) {
+    body {
+        padding-bottom: 400px;
+    }
+}
 p {
     margin-top: 0;
     margin-bottom: 0;
@@ -166,4 +171,5 @@ img {
         font-size: 16px;
     }
 }
+
 

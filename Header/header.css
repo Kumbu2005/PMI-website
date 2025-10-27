@@ -203,7 +203,7 @@ opacity: 0.8;
     object-fit: cover;
     object-position: center;
     height: 50px;
-    margin-left: -70px;
+    margin-left: 0px;
 }
 
 /* ✨ responsive tweaks for tablet and below */

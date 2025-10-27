@@ -10,7 +10,7 @@ body {
 }
 @media (max-width:800px) {
     body {
-        padding-bottom: 400px;
+        padding-bottom: 600px;
     }
 }
 p {
@@ -171,5 +171,6 @@ img {
         font-size: 16px;
     }
 }
+
 
 

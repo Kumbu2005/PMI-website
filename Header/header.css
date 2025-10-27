@@ -35,6 +35,7 @@ p {
     flex-direction: row;
     align-items: center;
     cursor: pointer;
+    white-space: nowrap;
 }
 
 .mail-icon {

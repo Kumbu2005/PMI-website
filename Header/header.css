@@ -12,14 +12,18 @@ p {
     left: 0;
     right: 0;
     z-index: 100;
+    flex-wrap: wrap;
     
 }
 @media (max-width:800px) {
     .floating-header {
         font-size: 16px;
+        
     }
+    body {
+        padding-top: 60px;
 }
-
+}
 .header-top {
     display: flex;
     flex-direction: row;

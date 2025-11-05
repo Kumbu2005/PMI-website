@@ -13,6 +13,7 @@ p {
     right: 0;
     z-index: 100;
     flex-wrap: wrap;
+    max-width: 100%;
     
 }
 @media (max-width:800px) {

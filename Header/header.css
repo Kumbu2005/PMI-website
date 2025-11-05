@@ -264,3 +264,8 @@ opacity: 0.8;
         font-size: 14px;
     }
 }
+.blank {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+}

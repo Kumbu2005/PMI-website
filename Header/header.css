@@ -12,19 +12,34 @@ p {
     left: 0;
     right: 0;
     z-index: 100;
-    flex-wrap: wrap;
-    max-width: 100%;
-    
+    display: flex;  
+}
+.floating-header-home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+}
+.floating-header-right {
+    display: flex;
 }
 @media (max-width:800px) {
     .floating-header {
-        font-size: 16px;
-        
+        font-size: 16px;       
     }
-    body {
-        padding-top: 60px;
+    .floating-header-home {
+        font-size: 16px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .floating-header-right {
+        flex-direction: column;
+        align-items: center;
+    }
 }
-}
+
 .header-top {
     display: flex;
     flex-direction: row;
@@ -61,6 +76,19 @@ p {
     margin-right: 10px;
     margin-left: 10px;
 }
+.divider-sometimes {
+    height: 20px;
+    border-left: 0.5px;
+    border-left-style: dotted;
+    width: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+@media (max-width: 800px) {
+    .divider-sometimes {
+        display: none;
+    }
+}
 
 .phone {
     display: flex;
@@ -80,8 +108,13 @@ p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-top: 4px;
+    background-color: whitesmoke;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
 }
+
 .Linkedin-link {
     height: 16px;
     padding: 0;
@@ -135,9 +168,10 @@ p {
     .left-side {
         margin-left: 20px;
     }
-    .header-top {
-        padding-left: 20px;
+    .socials {
+        padding-left: 130px;
     }
+    
 }
 .logo {
     margin-right: 20px;
@@ -214,7 +248,7 @@ opacity: 0.8;
     object-fit: cover;
     object-position: center;
     height: 50px;
-    margin-left: 0px;
+    margin-left: 10px;
 }
 
 /* ✨ responsive tweaks for tablet and below */
@@ -225,6 +259,11 @@ opacity: 0.8;
     .header-top {
         padding-left: 40px;
     }
+    .socials {
+        padding-left: 40px;
+        padding-top: 4px;
+    }
+
     .main-header {
         flex-direction: column; /* ✨ stack logo and nav */
         align-items: center;
@@ -264,9 +303,4 @@ opacity: 0.8;
         text-align: center;
         font-size: 14px;
     }
-}
-.blank {
-    padding-top: 50px;
-    padding-bottom: 100px;
-    width: 100%;
 }

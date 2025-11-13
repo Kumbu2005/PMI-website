@@ -12,7 +12,8 @@ p {
     left: 0;
     right: 0;
     z-index: 100;
-    display: flex;  
+    display: flex;
+    font-size: 16px;
 }
 .floating-header-home {
     position: fixed;
@@ -21,6 +22,7 @@ p {
     right: 0;
     z-index: 100;
     display: flex;
+    font-size: 16px;
 }
 .floating-header-right {
     display: flex;
@@ -30,7 +32,7 @@ p {
         font-size: 12px;       
     }
     .floating-header-home {
-        font-size: 16px;
+        font-size: 12px;
         flex-direction: column;
         align-items: center;
     }

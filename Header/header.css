@@ -169,10 +169,10 @@ p {
 }
 @media (max-width:800px) {
     .left-side {
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .socials {
-        padding-left: 130px;
+        padding-left: 20px;
     }
     
 }
@@ -215,6 +215,10 @@ p {
         white-space: nowrap;
         margin: 10px 0;
     }
+    
+.PMI-logo {
+    height: 80px;
+}
 }
 .home-button {
     color: white;

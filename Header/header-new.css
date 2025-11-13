@@ -1,0 +1,136 @@
+body {
+    position: relative;
+}
+
+.header-top{
+    display: grid;
+    position: fixed;
+    grid-template-columns: 70px 1fr 1fr 30px;
+    max-width: 50vw;
+    gap: 10px;
+    align-items: center;
+    background-color: whitesmoke ;
+    padding-right: 100%;
+    top: 0;
+    left: 0;
+    justify-content: space-around;
+}
+.email {
+    color: blueviolet;
+    display: block;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.email-img {
+    object-fit: cover;
+    object-position: center;
+    height: 20px;
+}
+.phone-number {
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.phone-img {
+    object-fit: cover;
+    object-position: center;
+    height: 20px;
+}
+.floating-header-logo {
+    height: 70px;
+}
+.floating-header-logo-img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
+.divider {
+    height: 20px;
+    border-left: 0.5px;
+    border-left-style: dotted;
+    width: 0px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.divider-sometimes {
+    height: 20px;
+    border-left: 0.5px;
+    border-left-style: dotted;
+    width: 0px;
+    margin-right: 10px;
+    margin-left: 10px;  
+} 
+.socials {
+    display: grid;
+    grid-template-columns: 20px 20px 20px 20px;
+    height: 20px;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.socials-mobile {
+    position: relative;
+    height: 30px;
+    display: none;
+    
+}
+.socials-mobile-icon-img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}
+.socials-mobile .contents {
+    position: absolute;
+    align-items: center;
+    padding-left: 4px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    display: none;
+
+}
+.socials-mobile:hover .contents {
+    display: block;
+}
+.facebook-img {
+    object-fit: cover;
+    object-position: center;
+    height: 20px;
+    cursor: pointer;
+    
+    
+}
+.instagram-img {
+    height: 20px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+.x-img {
+    height: 20px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+.linkedin-img {
+    height: 20px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+@media (max-width:800px) {
+    .header-top {
+        font-size: 12px;
+        gap: 0px;
+    }
+    .socials {
+        display: none;
+    }
+    .socials-mobile {
+        display: block;
+    }
+}

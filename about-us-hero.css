@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.about-hero-background {
+    height: 65vh;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(Precious\ Medica\ International\ Mwafika\ Brand\ Campaign\ launch\ Cocktail\ party_-99.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.about-hero-middle {
+   height: 230px;
+   width: 700px;
+   background-color: hsla(0, 0%, 100%, 0.7); 
+   margin-top: -250px;
+   margin-left: 4%;
+   z-index: 10;
+}
+.about-hero-text {
+    font-weight: 600;
+    font-size: 38px;
+    color: black;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    width: 600px;
+}
+.about-hero-button {
+    text-decoration: none;
+    color: white;
+    border: 1px;
+    border-radius: 1px;
+    padding: 10px 14px;
+    background-color: purple;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+@media (max-width:800px) {
+    .about-hero-background {
+        height: 40vh;
+    }
+    .about-hero-middle {
+        margin-top: 10px;
+    }
+    .about-hero-text {
+        font-size: 24px;
+        width: 400px;
+    }
+    .about-hero-button {
+        padding: 8px 12px;
+    }
+}

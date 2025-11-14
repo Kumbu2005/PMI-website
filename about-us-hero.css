@@ -50,8 +50,11 @@
     .about-hero-text {
         font-size: 24px;
         width: 400px;
+        margin-left: 4px;
     }
     .about-hero-button {
-        padding: 8px 12px;
+        padding: 8px 12px
+        margin-left: 4px;
     }
 }
+

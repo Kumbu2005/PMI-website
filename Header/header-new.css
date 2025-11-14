@@ -124,6 +124,7 @@ body {
 @media (max-width:800px) {
     .header-top {
         font-size: 10px;
+        grid-template-columns: 35px 1fr 1fr 30px;
         gap: 0px;
     }
     .socials {
@@ -143,7 +144,14 @@ body {
         margin-right: 5px;
         margin-left: 5px;
     } 
+    .phone-img {
+        height: 10px;
+    }
+    .email-img {
+        height: 10px;
+    }
 }
+
 
 
 

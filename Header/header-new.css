@@ -14,6 +14,7 @@ body {
     top: 0;
     left: 0;
     justify-content: space-around;
+    z-index: 100;
 }
 .email {
     color: blueviolet;
@@ -134,3 +135,4 @@ body {
         display: block;
     }
 }
+

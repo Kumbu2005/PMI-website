@@ -7,7 +7,7 @@ body {
     padding-bottom: 350px;
     position: relative;
     overflow-x: hidden;
-    
+    padding-top: 50px;
 }
 
 .founder-pic {
@@ -232,5 +232,6 @@ body {
         display: none; /* hides for super small screens */
     }
 }
+
 
 

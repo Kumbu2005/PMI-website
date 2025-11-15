@@ -74,7 +74,7 @@ body {
 }
 
 .info-image {
-    background: url('pics/arifwdn-PfHCCY-JXXA-unsplash.jpg') center/cover no-repeat;
+    background: url('chosen/Precious\ Medica\ International\ Mwafika\ Brand\ Campaign\ launch\ Cocktail\ party_-78.jpg') center/cover no-repeat;
     height: 500px;
     border-radius: 1px;
     z-index: 4;
@@ -232,4 +232,5 @@ body {
         display: none; /* hides for super small screens */
     }
 }
+
 

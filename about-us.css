@@ -6,6 +6,7 @@
 body {
     padding-bottom: 350px;
     position: relative;
+    overflow-x: hidden;
     
 }
 
@@ -231,3 +232,4 @@ body {
         display: none; /* hides for super small screens */
     }
 }
+

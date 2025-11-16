@@ -1,7 +1,7 @@
 body {
     position: relative;
     font-family: roboto, arial;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .header-top{
@@ -153,6 +153,7 @@ body {
         height: 10px;
     }
 }
+
 
 
 

@@ -47,6 +47,7 @@
     .about-hero-middle {
         margin-top: 10px;
         max-width: 100%;
+        margin-left: 0;
     }
     .about-hero-text {
         font-size: 24px;
@@ -58,6 +59,7 @@
         margin-left: 4px;
     }
 }
+
 
 
 

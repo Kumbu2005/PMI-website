@@ -49,7 +49,7 @@
     }
     .about-hero-text {
         font-size: 24px;
-        width: 400px;
+        max-width: 95%;
         margin-left: 4px;
     }
     .about-hero-button {
@@ -57,4 +57,5 @@
         margin-left: 4px;
     }
 }
+
 

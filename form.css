@@ -108,6 +108,10 @@ body {
     row-gap: 20px;
     width: 90vw;
 }
+    .contact-inputs-employs {
+        width: 100%;
+    }
+    
 }
 
 .dropdown-inputs {
@@ -159,3 +163,4 @@ body {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 
 .dropdown:hover .dropbtn {background-color: rgb(192, 192, 192) ;}
+

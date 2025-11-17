@@ -52,13 +52,14 @@
     .about-hero-text {
         font-size: 24px;
         max-width: 95%;
-        margin-left: 4px;
+        margin-left: 6px;
     }
     .about-hero-button {
         padding: 8px 12px
         margin-left: 4px;
     }
 }
+
 
 
 

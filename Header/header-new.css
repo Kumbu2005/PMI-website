@@ -84,7 +84,7 @@ body {
 .socials {
     display: grid;
     grid-template-columns: 20px 20px 20px 20px;
-    height: 20px;
+    height: 25px;
     gap: 10px;
     justify-content: space-around;
 }
@@ -173,6 +173,7 @@ body {
         height: 10px;
     }
 }
+
 
 
 

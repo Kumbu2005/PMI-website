@@ -3,7 +3,20 @@ body {
     font-family: roboto, arial;
     padding-top: 60px;
 }
-
+.header-top-home {
+    display: grid;
+    position: fixed;
+    grid-template-columns: 1fr 1fr 30px;
+    max-width: 50vw;
+    gap: 10px;
+    align-items: center;
+    background-color: whitesmoke ;
+    padding-right: 100%;
+    top: 0;
+    left: 0;
+    justify-content: space-around;
+    z-index: 100;
+}
 .header-top{
     display: grid;
     position: fixed;
@@ -129,6 +142,11 @@ body {
         grid-template-columns: 35px 1fr 1fr 30px;
         gap: 0px;
     }
+    .header-top-home {
+        font-size: 12px;
+        grid-template-columns: 1fr 1fr 30px;
+        gap: 0px;
+    }
     .socials {
         display: none;
     }
@@ -153,6 +171,7 @@ body {
         height: 10px;
     }
 }
+
 
 
 

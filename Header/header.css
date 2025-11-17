@@ -106,18 +106,6 @@ p {
     font-size: 12px;
 }
 
-.socials {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: whitesmoke;
-    padding-left: 100px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-right: 100%;
-    
-}
-
 .Linkedin-link {
     height: 16px;
     padding: 0;

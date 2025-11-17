@@ -16,6 +16,8 @@ body {
     left: 0;
     justify-content: space-around;
     z-index: 100;
+    padding-top: 10px;
+    padding-left: 20px
 }
 .header-top{
     display: grid;
@@ -171,6 +173,7 @@ body {
         height: 10px;
     }
 }
+
 
 
 

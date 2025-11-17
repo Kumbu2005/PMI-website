@@ -6,7 +6,7 @@ body {
 .header-top-home {
     display: grid;
     position: fixed;
-    grid-template-columns: 1fr 1fr 30px;
+    grid-template-columns: 1fr 1fr 130px;
     max-width: 50vw;
     gap: 10px;
     align-items: center;
@@ -171,6 +171,7 @@ body {
         height: 10px;
     }
 }
+
 
 
 

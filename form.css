@@ -116,6 +116,10 @@ body {
 .contact-left textarea {
     max-width: 400px;
 }
+.contact-inputs-employs {
+    diplay: block;
+    width: 90vw;
+}
 }
 
 .dropdown-inputs {
@@ -170,3 +174,4 @@ body {
     display: flex;
     gap: -100px;
 }
+

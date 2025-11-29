@@ -139,8 +139,11 @@ body {
   width: 400px;
 }
 @media (max-width: 830px) {
-    .dropdown {
-        width:200px;
+    .new-div {
+        width:90vw;
+        diplay: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
     }
 }
 
@@ -175,6 +178,7 @@ body {
     display: flex;
     gap: -100px;
 }
+
 
 
 

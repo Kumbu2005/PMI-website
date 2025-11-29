@@ -138,6 +138,10 @@ body {
   display: inline-block;
   width: 400px;
 }
+.new-div {
+    display: flex;
+    gap: -100px;
+}
 @media (max-width: 830px) {
     .new-div {
         width:90vw;
@@ -177,10 +181,8 @@ body {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color: rgb(192, 192, 192) ;}
 
-.new-div {
-    display: flex;
-    gap: -100px;
-}
+
+
 
 
 

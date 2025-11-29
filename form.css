@@ -145,6 +145,9 @@ body {
         grid-template-columns: 1fr 1fr;
         gap: 10px;
     }
+    .dropdown {
+        max-width:50%;
+    }
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -178,6 +181,7 @@ body {
     display: flex;
     gap: -100px;
 }
+
 
 
 

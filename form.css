@@ -138,6 +138,11 @@ body {
   display: inline-block;
   width: 400px;
 }
+@media (max-width: 830px) {
+    .dropdown {
+        width:200px;
+    }
+}
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
@@ -170,5 +175,6 @@ body {
     display: flex;
     gap: -100px;
 }
+
 
 
